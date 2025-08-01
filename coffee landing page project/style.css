@@ -1,0 +1,218 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #100e0f ;
+color: #fff;
+}
+:root{
+    --main-color: #deab5f;
+--primarycolor:black;
+}
+button{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: var(--main-color);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: #fff;
+padding-top: 15px;
+padding: 10px;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header{
+background: url('https://wallpapers.com/images/hd/black-coffee-1920-x-1148-wallpaper-0sl7he5d1ctm6s3p.jpg');
+    height: 100vh;
+   
+background-position: center;
+ background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    /* position: relative; */
+    text-align: center;
+}
+.our-story{
+    height: 100vh;
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url('https://img.freepik.com/premium-photo/hot-coffee-cup-isolated-black-background_162695-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 2rem;
+    color: #fff;
+}
+.line{
+    width:100px;
+    height: 2px;
+color: #fff;
+}
+.content-section{
+    margin-left: 15px;
+}
+.content-section p{
+    max-width: 500px;
+    color: #fff;
+ line-height: 20px;
+ margin:20px 0;    
+}
+.coffee-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 10px;
+}
+.content-sec p{
+    max-width: 500px;
+    margin-top: 20px;
+    color: #fff;
+}
+.img-two{
+    height: 400px;
+    width: 400px;
+}
+.title-two{
+    font-size: 2rem;
+    color: #fff;
+}
+.products{
+    margin-top: 2rem;
+}
+.title-three{
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+     
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0px 20px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    position:relative;
+    margin-bottom: 4rem;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+}
+.img-one{
+    background: url('https://img.freepik.com/premium-photo/hot-coffee-cup-isolated-black-background_162695-2.jpg');
+    background-position: center;
+ background-size: cover;
+}
+.img-two{
+    background: url('https://img.freepik.com/premium-photo/hot-coffee-cup-isolated-black-background_162695-2.jpg');
+    background-position: center;
+ background-size: cover;
+}
+.img-three{
+    background: url('https://img.freepik.com/premium-photo/hot-coffee-cup-isolated-black-background_162695-2.jpg');
+    background-position: center;
+ background-size: cover;
+}
+.card-title{
+    color: #fff;
+    margin-top: 50px;
+}
+.items p{
+    margin: 20px 0px;
+}
+footer{
+height: 50vh;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+footer .container{
+    margin: 20px 10px;
+    max-width: 300px;
+text-align: center;
+}
+footer .heading-info{
+margin-bottom: 20px;
+}
+.para{
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+}
+span{
+    color: var(--main-color);
+}
+hr .hr-two {
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:768px) {
+    .main-headings,.primary-headings{
+        font-size: 2rem;
+    }
+
+   .coffee-cont{
+    margin-top: 30px;
+   }
+   .our-story{
+    height: 150vh;
+   }
+   footer{
+    height: 70vh;
+   }
+}
