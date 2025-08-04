@@ -1,0 +1,303 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  z-index: 999;
+ color: white;
+}
+nav li{
+  display: inline;
+  margin-left: 40px;
+}
+nav li a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+.main-pic{
+  height: 100vh;
+background: url('https://media.istockphoto.com/id/1420678520/photo/building-site-at-sunset.jpg?s=612x612&w=0&k=20&c=HoDUK1RxsH78Fj9D34nao_MUTbf-vR3G97zUWMtES4k=');
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+   justify-content: center;
+   color: white;
+}
+.main-pic p{
+  font-size: 2rem;
+  margin-left: 20rem;
+}
+.main-pic h1{
+    margin-left: 20rem;
+  font-size: 6rem;
+}
+.main-pic button{
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 999;
+width: 200px;
+height: 50px;
+  margin-left: 25rem;
+  font-size: 1.5rem;
+color: white;
+}
+.main-pic span{
+  color: green;
+}
+.main-pic button:hover{
+  background-color: green;
+  color: white;
+}
+.our-services{
+  background-color: white;
+  height: 100vh;
+}
+.our-services h1{
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+.our-services h1 span{
+  color: green;
+}
+.services {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.services .cards{
+width: 400px;
+height: 50vh;
+margin-left: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+  border: 0.5px solid grey;
+}
+.services .cards:hover{
+   box-shadow: 2px 2px 2px 2px #ccc;
+  transform: scale(1.1);
+    transition-duration: 1s;
+  cursor: pointer;
+}
+.services .cards .card-img{
+  width: 360px;
+  height: 40vh;
+}
+.services .cards p{
+  font-size: 1.5rem;
+}
+.services .cards .img1{
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTccCO8EfR28FeusyZdoh8lZs_u63vxo3-Q&s');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.services .cards .img2{
+background: url('https://t4.ftcdn.net/jpg/02/31/69/05/360_F_231690594_1xpuGVGkzsPIvIVRyRkGLY5Ze11d3yev.jpg');
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.services .cards .img3{
+background: url('https://www.savills.pk/_images/consultancy.jpg');
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.choose{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.choose h1{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.choose .para{
+  max-width: 1000px;
+  height: 60vh;
+}
+.choose .para li{
+  font-size: 1.5rem;
+  color: grey;
+font-family: 'Times New Roman', Times, serif;
+line-height: 4rem;
+}
+.choose .img{
+  width: 300px;
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRVoY4Ltm54fe_8Yb2Kboj9CZpdsCFcmvZBQ&s');
+height: 300px;
+background-position: center;
+background-size: cover;
+border-radius: 50%;
+border: 8px solid green;
+}
+.choose .img:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.choose .para li:hover{
+  font-weight: bold;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.choose span{
+  color: green;
+}
+.details{
+  height: 220vh;
+}
+.details h1{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.details span{
+color: green;
+}
+.sec1{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec1 .para p{
+  font-size: 2rem;
+}
+.sec1 .para{
+  max-width: 1000px;
+  height: 60vh;
+}
+.sec1 .para li{
+  font-size: 1.5rem;
+  color: grey;
+font-family: 'Times New Roman', Times, serif;
+line-height: 4rem;
+}
+.sec1 #img1{
+  width: 300px;
+background: url('https://cloud.chiefarchitect.com/1/images/index/stone-creek-cutaway-603x584.jpg');
+  height: 300px;
+background-position: center;
+background-size: cover;
+box-shadow: 6px 6px rgb(90, 131, 90);
+}
+.sec1 .img:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.sec1 .para li:hover{
+  font-weight: bold;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.sec1 #img2{
+  width: 300px;
+background: url('https://www.messer.com/wp-content/uploads/Quality_QLS_3493-Top-Favorite.jpg');
+  height: 300px;
+background-position: center;
+background-size: cover;
+box-shadow: 6px 6px rgb(90, 131, 90);
+}
+.sec1 #img3{
+  width: 300px;
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbcrj53mGyk-u4JwrIb6z1RBAeCpxR78gfQ&s');
+  height: 300px;
+background-position: center;
+background-size: cover;
+box-shadow: 6px 6px rgb(90, 131, 90);
+}
+.form{
+  height: 30vh;
+  margin-top: 10rem;
+}
+.form input{
+margin-left: 15rem;
+margin-bottom: 1rem;
+border: none;
+border-bottom: 2px solid green;
+width: 600px;
+font-size: 1.2rem;
+}
+.form input[type="submit"]{
+background-color:white;
+width: 100px;
+ font-size: 1.2rem;
+color: green;
+}
+.form input[type="submit"]:hover{
+  border: 2px solid green;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+footer {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: green;
+}
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+footer li{
+  margin-top: 20px;
+}
+footer li a{
+  display: inline;
+  margin-left: 25px;
+    font-size: 1.5rem;
+text-decoration: none;
+color: rgb(251, 245, 245);
+}
+footer li a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:900px){
+  .main-pic{
+flex-direction: row; 
+justify-content: flex-end;
+} 
+.main-pic button{
+margin-left: -15rem;
+}
+.our-services{
+    height: 180vh;
+  }
+  .services .cards{
+margin-bottom: 20px;
+}
+.choose{
+  height: 200vh;
+  margin-bottom: 10rem;
+}
+.details{
+  height: 300vh;
+}
+.sec1{
+  margin-bottom: 10rem;
+}
+}
