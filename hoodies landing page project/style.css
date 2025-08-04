@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+--color:rgb(61, 97, 61);
+  --color1: #00000097;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: var(--color);
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  margin-top: 0.5rem;
+}
+.header{
+    max-width: 500px;
+}
+.img-container{
+    max-width: 300px;
+}
+.main-title {
+  font-size: 3.7rem;
+  color: #00000097;
+  line-height: 4rem;
+}
+#span1{
+    color: black;
+}
+.para1 {
+  line-height: 25px;
+  margin-bottom: 1rem;
+  color: black;
+}
+.btn1{
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+    margin-left: 5px;
+}
+.btn1:hover{
+    width: 100px;
+    padding: 10px;
+    color: var(--color);
+    background-color: white;
+    border: 2px solid var(--color);
+    margin-left: 5px;
+}
+.btn2{
+width: 100px;
+    padding: 10px;
+    color: var(--color);
+    background-color: white;
+    border: 2px solid var(--color);
+    margin-left: 5px;
+}
+.btn2:hover{
+        width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+    margin-left: 5px;
+}
+.img-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url('https://media.istockphoto.com/id/1333081908/photo/beautiful-emotional-woman.jpg?s=612x612&w=0&k=20&c=LWikXDY6MW6jXujVHpTwSHksJUHLP4KltHjA8fB6zYs=');
+background-size: cover;
+}
+.summer{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.summeroffer{
+    max-width: 500px;
+}
+.img-cont2{
+    max-width: 300px;
+}
+.img-cont2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+background: url('https://i.pinimg.com/564x/99/42/7c/99427c5ae6ac6aee0cbd28187258e23d.jpg');
+background-position: center;
+background-size: cover;
+}
+.summeroffer h1{
+    font-size: 4rem;
+}
+#span2{
+    color: var(--color1);
+}
+.summeroffer p{
+    margin: 10px 10px;
+    line-height: 1.5rem;
+}
+.summeroffer .btn1{
+    margin-top: 10px;
+}
+.products{
+    height: 100vh;
+    margin: 80px;
+}
+.products h2{
+text-align: center;
+margin: 20px;
+font-size: 3rem;
+}
+.products .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products .buttons button{
+    margin-left: 90px;
+}
+.images{
+    height: 130vh;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+}
+.images .img{
+margin-left: 50px;
+margin-top: 20px;
+}
+.client{
+margin-top: 400px;
+height: 100vh;
+}
+.client h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.client .client-img{
+    height: 70vh;
+          display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.client .client-img .img{
+    height: 60vh;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+align-items: center;
+}
+.client .client-img .img .img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.client .client-img .img #img1{
+background: url('https://chiefapparel.pk/cdn/shop/files/UJS00381_483a841f-9b4c-4276-8c12-b153e95561ca.png?v=1709843025');
+background-position: center;
+background-size: cover;
+}
+.client .client-img .img #img2{
+background: url('https://chiefapparel.pk/cdn/shop/products/5-A_2ec77f93-bd79-4ccb-8d6a-9d2ef5366cba.jpg?v=1665743641');
+    background-position: center;
+background-size: cover;
+}
+.client .client-img .img #img3{
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqIDM6aofGUYTvME5pMPWdYhqkGO0jLVC5nQ&s');
+    background-position: center;
+background-size: cover;
+}
+footer{
+    height: 200px;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    height: 100px;
+}
+@media screen and (max-width:800px){
+.summer{
+    margin-top: 15rem;
+    height:120vh ;
+}
+.products{
+    height: 300vh;
+}
+.client{
+    height: 150vh;
+}
+}
+ @media screen and (max-width:539px){
+.client{
+    height: 220vh;
+}
+footer{
+    flex-direction: column;
+    height: 30vh;
+}
+ }
+
